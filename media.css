@@ -1,18 +1,17 @@
-@media screen and (min-width:200px) and (max-width:575px){
+@media only screen and (min-width:200px) and (max-width:575px){
 
 section{
-    
-    padding: 50px;
+    padding-top: 50px;
 }
 
 
 section div{
-    padding: 0px 10px;
+    width: 100%;
+    padding: 0px 5px;
 }
 
 section div table{
-
-    table-layout: fixed;
+    margin: 0px auto;
 }
 
 section div table thead{
@@ -20,15 +19,15 @@ section div table thead{
 }
 
 section div table thead tr th{
-    word-wrap: break-word;
-        overflow-wrap: break-word;
+    /* word-wrap: break-word;
+        overflow-wrap: break-word; */
         padding: 10px 15px;
         font-size: 12px;
 }
 
 section div table tbody tr td{
-    word-wrap: break-word;
-        overflow-wrap: break-word;
+    /* word-wrap: break-word;
+        overflow-wrap: break-word; */
         padding: 10px 15px;
         font-size: 12px;
 }
