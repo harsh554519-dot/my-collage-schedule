@@ -10,16 +10,27 @@ section div{
     padding: 0px 10px;
 }
 
+section div table{
+
+    table-layout: fixed;
+}
+
 section div table thead{
     margin: 1px;
 }
 
 section div table thead tr th{
-    padding: 5px;
+    word-wrap: break-word;
+        overflow-wrap: break-word;
+        padding: 6px;
+        font-size: 12px;
 }
 
 section div table tbody tr td{
-    padding: 5px;
+    word-wrap: break-word;
+        overflow-wrap: break-word;
+        padding: 6px;
+        font-size: 12px;
 }
 
 }

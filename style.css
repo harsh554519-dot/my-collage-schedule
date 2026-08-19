@@ -16,6 +16,7 @@ section{
 section div{
     max-width: 1320px;
     margin: auto;
+    /* overflow-x: auto; */
 }
 
 
@@ -33,7 +34,7 @@ section div table{
     width: 100%;
     background-color: #ccc;
     border: 2px solid black;
-    
+    border-collapse: collapse;
 }
 
 section div table thead{
