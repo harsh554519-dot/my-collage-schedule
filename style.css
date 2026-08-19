@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+section{
+    width: 100%;
+    padding-top: 100px;
+}
+
+section div{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+
+section div caption h1{
+    text-align: center;
+}
+
+section div table tr{
+    margin: 5px;
+}
+
+section div table{
+
+    width: 100%;
+    background-color: #ccc;
+    border: 2px solid black;
+    
+}
+
+section div table thead{
+    background-color: chartreuse;
+}
+.Day{
+    background-color: blue;
+}
+
+section div table thead{
+    margin: 5px;
+}
+
+
+section div table thead tr th{
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+section div table tbody tr td{
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
