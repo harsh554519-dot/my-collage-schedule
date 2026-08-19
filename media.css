@@ -22,14 +22,14 @@ section div table thead{
 section div table thead tr th{
     word-wrap: break-word;
         overflow-wrap: break-word;
-        padding: 6px;
+        padding: 10px;
         font-size: 12px;
 }
 
 section div table tbody tr td{
     word-wrap: break-word;
         overflow-wrap: break-word;
-        padding: 6px;
+        padding: 10px;
         font-size: 12px;
 }
 
